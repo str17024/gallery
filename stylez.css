@@ -80,10 +80,7 @@ article {
   width: 100%;
   object-fit: cover;
   img:hover {box-shadow: 5px 5px 10px gray;}
-/* rounded corners - boxmodel */
-.rocorn {border-radius: 5px 50px;}
-/* simple opacity */
-.opac {opacity: .5;}
+
 }
 
 .article-title {
