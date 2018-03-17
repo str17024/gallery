@@ -15,7 +15,13 @@
     
    
         
-   
+    main > .flexbox {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+    }
+    
     main h2 {
         margin: 0.5em 1.75em 0 1.75em;
         padding: 0.3em 0 0 0;
@@ -26,6 +32,11 @@
         font-size: 1.69em;
     }
     
+    main section p, article.info p, article.info ul li, p.w-story {
+        font-size:1.3em;
+    }
+    
+
     
     table {
         font-size: 20px;
@@ -36,13 +47,26 @@
         border: 0.5px solid black;
     }
     
-   
+    main p.town-article {
+        font-size: 1.56em;
+    }
+        
+    main article.container, main .flexbox, .flexbox1{
+        margin: 0 7em 0 7em;
+    }
+    
+    main article.container img, .flexbox1>img { 
+        padding: 1em;
+    }
     
     footer {
         font-size: 1.3em;
     }
     
-    
+    main > .grid {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 2em 7em 0;
+    }
     
  
     
